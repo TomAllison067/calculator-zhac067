@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.29">
+<file name="/home/tom/eclipse-workspace/calculator-zhac067/src/main/java/ac/uk/rhul/zhac067/calculator/postfix/InvalidExpressionException.java">
+</file>
+<file name="/home/tom/eclipse-workspace/calculator-zhac067/src/main/java/ac/uk/rhul/zhac067/calculator/postfix/SumVisitor.java">
+</file>
+<file name="/home/tom/eclipse-workspace/calculator-zhac067/src/main/java/ac/uk/rhul/zhac067/calculator/postfix/LeafNode.java">
+</file>
+<file name="/home/tom/eclipse-workspace/calculator-zhac067/src/main/java/ac/uk/rhul/zhac067/calculator/postfix/OperatorNode.java">
+</file>
+<file name="/home/tom/eclipse-workspace/calculator-zhac067/src/main/java/ac/uk/rhul/zhac067/calculator/postfix/Visitable.java">
+</file>
+<file name="/home/tom/eclipse-workspace/calculator-zhac067/src/main/java/ac/uk/rhul/zhac067/calculator/postfix/Visitor.java">
+</file>
+<file name="/home/tom/eclipse-workspace/calculator-zhac067/src/main/java/ac/uk/rhul/zhac067/calculator/postfix/Operators.java">
+</file>
+<file name="/home/tom/eclipse-workspace/calculator-zhac067/src/main/java/ac/uk/rhul/zhac067/calculator/postfix/Operator.java">
+</file>
+<file name="/home/tom/eclipse-workspace/calculator-zhac067/src/main/java/ac/uk/rhul/zhac067/calculator/postfix/RevPolishCalc.java">
+</file>
+<file name="/home/tom/eclipse-workspace/calculator-zhac067/src/main/java/ac/uk/rhul/zhac067/calculator/Driver.java">
+</file>
+<file name="/home/tom/eclipse-workspace/calculator-zhac067/src/main/java/ac/uk/rhul/zhac067/calculator/NumStack.java">
+</file>
+<file name="/home/tom/eclipse-workspace/calculator-zhac067/src/main/java/ac/uk/rhul/zhac067/calculator/Stack.java">
+</file>
+<file name="/home/tom/eclipse-workspace/calculator-zhac067/src/main/java/ac/uk/rhul/zhac067/calculator/Symbol.java">
+</file>
+<file name="/home/tom/eclipse-workspace/calculator-zhac067/src/main/java/ac/uk/rhul/zhac067/calculator/CalculatorFactory.java">
+</file>
+<file name="/home/tom/eclipse-workspace/calculator-zhac067/src/main/java/ac/uk/rhul/zhac067/calculator/CalculatorInterface.java">
+</file>
+<file name="/home/tom/eclipse-workspace/calculator-zhac067/src/main/java/ac/uk/rhul/zhac067/calculator/CalcController.java">
+</file>
+<file name="/home/tom/eclipse-workspace/calculator-zhac067/src/main/java/ac/uk/rhul/zhac067/calculator/BadTypeException.java">
+</file>
+<file name="/home/tom/eclipse-workspace/calculator-zhac067/src/main/java/ac/uk/rhul/zhac067/calculator/Type.java">
+</file>
+<file name="/home/tom/eclipse-workspace/calculator-zhac067/src/main/java/ac/uk/rhul/zhac067/calculator/standard/OpStack.java">
+</file>
+<file name="/home/tom/eclipse-workspace/calculator-zhac067/src/main/java/ac/uk/rhul/zhac067/calculator/standard/StandardCalc.java">
+</file>
+<file name="/home/tom/eclipse-workspace/calculator-zhac067/src/main/java/ac/uk/rhul/zhac067/calculator/views/Observer.java">
+</file>
+<file name="/home/tom/eclipse-workspace/calculator-zhac067/src/main/java/ac/uk/rhul/zhac067/calculator/views/ViewInterface.java">
+</file>
+<file name="/home/tom/eclipse-workspace/calculator-zhac067/src/main/java/ac/uk/rhul/zhac067/calculator/views/JavaFxView.java">
+</file>
+<file name="/home/tom/eclipse-workspace/calculator-zhac067/src/main/java/ac/uk/rhul/zhac067/calculator/views/AsciiView.java">
+</file>
+<file name="/home/tom/eclipse-workspace/calculator-zhac067/src/main/java/ac/uk/rhul/zhac067/calculator/Entry.java">
+</file>
+</checkstyle>

@@ -1,0 +1,15 @@
+# The CS2800 Calculator
+
+Welcome! Here are some simple instructions to use.
+
+## To run
+If using maven, one of the following:
+* `mvn javafx:run`
+* `mvn exec:java -D"exec.mainClass"="ac.uk.rhul.zhac067.calculator.Driver"`
+* `mvn package` to generate a runnable jar
+
+If you have the runnable jar, just execute it.
+
+## To test
+* `mvn test`
+* `mvn checkstyle:checkstyle`

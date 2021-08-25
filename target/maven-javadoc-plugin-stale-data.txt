@@ -1,0 +1,84 @@
+/usr/lib/jvm/java-11-openjdk-amd64/bin/javadoc
+@options
+@packages
+-classpath
+'/home/tom/.m2/repository/org/openjfx/javafx-controls/13/javafx-controls-13.jar:/home/tom/.m2/repository/org/openjfx/javafx-controls/13/javafx-controls-13-linux.jar:/home/tom/.m2/repository/org/openjfx/javafx-graphics/13/javafx-graphics-13.jar:/home/tom/.m2/repository/org/openjfx/javafx-fxml/13/javafx-fxml-13.jar:/home/tom/.m2/repository/org/openjfx/javafx-fxml/13/javafx-fxml-13-linux.jar:/home/tom/.m2/repository/org/openjfx/javafx-graphics/13/javafx-graphics-13-win.jar:/home/tom/.m2/repository/org/openjfx/javafx-base/13/javafx-base-13.jar:/home/tom/.m2/repository/org/openjfx/javafx-base/13/javafx-base-13-linux.jar:/home/tom/.m2/repository/org/openjfx/javafx-graphics/13/javafx-graphics-13-linux.jar:/home/tom/.m2/repository/org/openjfx/javafx-graphics/13/javafx-graphics-13-mac.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'/home/tom/eclipse-workspace/calculator-zhac067/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2020. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/tom/eclipse-workspace/calculator-zhac067/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'The CS2800 Calculator 1.3 API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' '/home/tom/eclipse-workspace/calculator-zhac067/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'The CS2800 Calculator 1.3 API'
+ac.uk.rhul.zhac067.calculator.postfix
+ac.uk.rhul.zhac067.calculator.postfix
+ac.uk.rhul.zhac067.calculator.postfix
+ac.uk.rhul.zhac067.calculator.postfix
+ac.uk.rhul.zhac067.calculator.postfix
+ac.uk.rhul.zhac067.calculator.postfix
+ac.uk.rhul.zhac067.calculator.postfix
+ac.uk.rhul.zhac067.calculator.postfix
+ac.uk.rhul.zhac067.calculator.postfix
+ac.uk.rhul.zhac067.calculator
+ac.uk.rhul.zhac067.calculator
+ac.uk.rhul.zhac067.calculator
+ac.uk.rhul.zhac067.calculator
+ac.uk.rhul.zhac067.calculator
+ac.uk.rhul.zhac067.calculator
+ac.uk.rhul.zhac067.calculator
+ac.uk.rhul.zhac067.calculator
+ac.uk.rhul.zhac067.calculator
+ac.uk.rhul.zhac067.calculator.standard
+ac.uk.rhul.zhac067.calculator.standard
+ac.uk.rhul.zhac067.calculator.views
+ac.uk.rhul.zhac067.calculator.views
+ac.uk.rhul.zhac067.calculator.views
+ac.uk.rhul.zhac067.calculator.views
+ac.uk.rhul.zhac067.calculator
+/home/tom/.m2/repository/org/openjfx/javafx-controls/13/javafx-controls-13.jar = 1604675749335
+/home/tom/.m2/repository/org/openjfx/javafx-controls/13/javafx-controls-13-linux.jar = 1604675751179
+/home/tom/.m2/repository/org/openjfx/javafx-graphics/13/javafx-graphics-13.jar = 1604675749335
+/home/tom/.m2/repository/org/openjfx/javafx-fxml/13/javafx-fxml-13.jar = 1604675749511
+/home/tom/.m2/repository/org/openjfx/javafx-fxml/13/javafx-fxml-13-linux.jar = 1604675749867
+/home/tom/.m2/repository/org/openjfx/javafx-graphics/13/javafx-graphics-13-win.jar = 1607113217669
+/home/tom/.m2/repository/org/openjfx/javafx-base/13/javafx-base-13.jar = 1604675749347
+/home/tom/.m2/repository/org/openjfx/javafx-base/13/javafx-base-13-linux.jar = 1604675750203
+/home/tom/.m2/repository/org/openjfx/javafx-graphics/13/javafx-graphics-13-linux.jar = 1604675751835
+/home/tom/.m2/repository/org/openjfx/javafx-graphics/13/javafx-graphics-13-mac.jar = 1607113219289
+/home/tom/eclipse-workspace/calculator-zhac067/src/main/java = 1607439577055
+/home/tom/eclipse-workspace/calculator-zhac067/target/site/apidocs/constant-values.html = 1607628323019
+/home/tom/eclipse-workspace/calculator-zhac067/target/site/apidocs/search.js = 1607628323151
+/home/tom/eclipse-workspace/calculator-zhac067/target/site/apidocs/index.html = 1607628323147
+/home/tom/eclipse-workspace/calculator-zhac067/target/site/apidocs/member-search-index.js = 1607628323127
+/home/tom/eclipse-workspace/calculator-zhac067/target/site/apidocs/overview-summary.html = 1607628323147
+/home/tom/eclipse-workspace/calculator-zhac067/target/site/apidocs/overview-tree.html = 1607628323103
+/home/tom/eclipse-workspace/calculator-zhac067/target/site/apidocs/package-search-index.zip = 1607628323127
+/home/tom/eclipse-workspace/calculator-zhac067/target/site/apidocs/allclasses.html = 1607628323143
+/home/tom/eclipse-workspace/calculator-zhac067/target/site/apidocs/type-search-index.zip = 1607628323127
+/home/tom/eclipse-workspace/calculator-zhac067/target/site/apidocs/package-search-index.js = 1607628323123
+/home/tom/eclipse-workspace/calculator-zhac067/target/site/apidocs/type-search-index.js = 1607628323127
+/home/tom/eclipse-workspace/calculator-zhac067/target/site/apidocs/element-list = 1607628322991
+/home/tom/eclipse-workspace/calculator-zhac067/target/site/apidocs/allclasses-index.html = 1607628323135
+/home/tom/eclipse-workspace/calculator-zhac067/target/site/apidocs/stylesheet.css = 1607628323151
+/home/tom/eclipse-workspace/calculator-zhac067/target/site/apidocs/allpackages-index.html = 1607628323135
+/home/tom/eclipse-workspace/calculator-zhac067/target/site/apidocs/member-search-index.zip = 1607628323127
+/home/tom/eclipse-workspace/calculator-zhac067/target/site/apidocs/deprecated-list.html = 1607628323139
+/home/tom/eclipse-workspace/calculator-zhac067/target/site/apidocs/serialized-form.html = 1607628323027
+/home/tom/eclipse-workspace/calculator-zhac067/target/site/apidocs/script.js = 1607628323151
+/home/tom/eclipse-workspace/calculator-zhac067/target/site/apidocs/index-all.html = 1607628323131
+/home/tom/eclipse-workspace/calculator-zhac067/target/site/apidocs/help-doc.html = 1607628323151

@@ -1,0 +1,21 @@
+// $Id$ $Revision$
+
+package ac.uk.rhul.zhac067.calculator.standard;
+
+import ac.uk.rhul.zhac067.calculator.CalculatorInterface;
+import ac.uk.rhul.zhac067.calculator.postfix.InvalidExpressionException;
+
+/**
+ * The standard calculator. Not yet implemented.
+ * @author zhac067
+ *
+ */
+public class StandardCalc implements CalculatorInterface {
+
+  @Override
+  public float evaluate(String expression) throws InvalidExpressionException {
+    // TODO Auto-generated method stub
+    return 0;
+  }
+
+}

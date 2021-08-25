@@ -1,0 +1,7 @@
+# News
+
+### 25th November 2020
+Release day! The first release of this calculator.
+It supports reverse Polish (postfix) calculation in full - but using infix mode will just return 0 every time.
+
+Hooray!

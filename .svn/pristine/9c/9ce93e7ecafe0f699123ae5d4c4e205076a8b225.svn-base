@@ -1,0 +1,72 @@
+package ac.uk.rhul.zhac067.calculator;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
+
+/*
+ * A class of various simple tests for the Symbol enum.
+ * 
+ * This class has three tests, created in order, that together test that the enum has the correct
+ * number of constants, named correctly and with the correct String attribute and overridden
+ * toString() method.
+ * 
+ * @author zhac067
+ */
+class TestSymbol {
+
+  /*
+   * Test 1 - Test there indeed 7 enum constants in Symbol, as specified by the UML.
+   * 
+   * Step 1: It failed, because there were 0 members. To pass, I simply created 7 randomly-named
+   * enum constants in the Symbol enum class.
+   */
+  @Test
+  void testThereAreSevenSymbols() {
+    assertEquals(7, Symbol.values().length, "The size of Symbol.values() should be seven.");
+  }
+
+  /*
+   * Test 2 - Check each expected enum constant is named appropriately and indeed is a member of the
+   * enum.
+   * 
+   * Step 1: This initially wouldn't compile because the existing enums were just randomly named (to
+   * pass the size requirement of test 1. To compile I created new enum constants appropriately in
+   * the Symbol enum.
+   * 
+   * Step 2: Test 2 and test 1 failed (because there were too many constants, and in the wrong order
+   * compared to the expectedSymbols[] array). To pass, I removed the randomly-named enum constants
+   * created for test 1.
+   * 
+   * Test 1 is now redundant, but I've kept it to show my progress. No refactoring needed as I did
+   * in TestType as the TestSymbol class was created AFTER (so I'd already learned my lesson, and
+   * used a loop here instead of four individual assertions).
+   */
+  @Test
+  void testEveryExpectedExpectedEnumExists() {
+    Symbol[] expectedSymbols = {Symbol.LEFT_BRACKET, Symbol.RIGHT_BRACKET, Symbol.TIMES,
+        Symbol.DIVIDE, Symbol.PLUS, Symbol.MINUS, Symbol.INVALID};
+    for (int i = 0; i < Symbol.values().length; i++) {
+      assertEquals(expectedSymbols[i], Symbol.values()[i],
+          "Expected " + expectedSymbols[i] + " but saw " + Symbol.values()[i]);
+    }
+  }
+
+  /*
+   * Test 3 - Checks each enum constant has the correct description (and by extension that all
+   * descriptions are unique).
+   * 
+   * Step 1: This failed because the enum had no String attribute and so the capitalised enum names
+   * were returned. The bare-minimum code to pass this test case was simply to implement the
+   * descriptions (ie, give the enum an appropriate constructor and attribute and override
+   * toString()).
+   */
+  @Test
+  void testEachConstantHasCorrectToStringDescription() {
+    String[] expectedStrings = {"(", ")", "*", "/", "+", "-", "?"};
+    for (int i = 0; i < Symbol.values().length; i++) {
+      assertEquals(expectedStrings[i], Symbol.values()[i].toString(),
+          "toString of " + Symbol.values()[i] + " should return" + expectedStrings[i]);
+    }
+  }
+}

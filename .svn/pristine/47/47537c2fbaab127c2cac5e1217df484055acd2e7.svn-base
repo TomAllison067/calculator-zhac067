@@ -1,0 +1,70 @@
+// $Id$ $Revision$
+
+package ac.uk.rhul.zhac067.calculator.views;
+
+/**
+ * The command line view for this calculator.
+ * 
+ * @author zhac067
+ *
+ * @see ViewInterface
+ */
+public class AsciiView implements ViewInterface {
+  /**
+   * The help text displayed to the user.
+   */
+  private final String helpString;
+
+  /**
+   * Construct a new AsciiView.
+   */
+  public AsciiView() {
+    helpString =
+        "Use one of the following:\n?<expression> to set the expression"
+        + "\nc to calculate the expression\nq to quit\n";
+  }
+
+  @Override
+  public String getUserInput() {
+    // TODO Auto-generated method stub
+    return null;
+  }
+
+  @Override
+  public void setAnswer(String answer) {
+    // TODO Auto-generated method stub
+
+  }
+
+  @Override
+  public void addCalcObserver(Observer o) {
+    // TODO Auto-generated method stub
+
+  }
+
+  @Override
+  public void addTypeObserver(Observer o) {
+    // TODO Auto-generated method stub
+
+  }
+
+  @Override
+  public void menu() {
+    // TODO Auto-generated method stub
+
+  }
+  
+  /**
+   * Returns the help string displayed to the user.
+   */
+  public String getHelpString() {
+    return helpString;
+  }
+  
+  /**
+   * Prints the help string.
+   */
+  public void printHelp() {
+    System.out.print(helpString);
+  }
+}
